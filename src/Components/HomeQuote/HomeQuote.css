@@ -1,0 +1,38 @@
+.homeQuote-mainContainer{
+    margin-top: -1rem;
+}
+
+.homeQuoteText{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.homeQuoteText{
+    font-size: 50px;
+    width: 90%;
+    
+}
+
+.topBorder{
+    display: flex;
+}
+.topBorder-left{
+    width: 30%;
+    background-color: white;
+    height: 80px;
+}
+.topBorder-right{
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+}
+
+
+
+.bottomBorder{
+    height: 80px;
+    background: black;
+}
+
+
