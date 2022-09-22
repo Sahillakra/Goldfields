@@ -1,38 +1,225 @@
-.homeQuote-mainContainer{
-    margin-top: -1rem;
+.homeQuote-mainContainer {
+  margin-top: -1rem;
 }
 
-.homeQuoteText{
+.homeQuoteText {
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  width: 82%;
+  padding: 2rem 0;
+  line-height: 130%;
+  word-spacing: 5px;
+}
+
+.topBorder {
+  display: flex;
+}
+.topBorder-left {
+  width: 30%;
+  background-color: white;
+  height: 90px;
+}
+.topBorder-right {
+  width: 70%;
+  background-color: #161210;
+  height: 90px;
+}
+
+.bottomBorder {
+  display: flex;
+}
+.bottomBorder-left {
+  width: 70%;
+  background-color: #161210;
+  height: 90px;
+}
+.bottomBorder-right {
+  width: 30%;
+  background-color: white;
+  height: 90px;
+}
+
+/* Bottom Section */
+
+.homeQuote-bottomSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 0 0 10rem 0;
+}
+
+.homeQuote-bottomSectionImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.homeQuote-bottomSectionImg img {
+  width: 75%;
+}
+
+.homeQuote-bottomSectionContent {
+  width: 50%;
+}
+
+.homeQuote-bottomSectionContent p {
+  font-size: 30px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .homeQuote-mainContainer {
+    margin-top: -1rem;
+  }
+
+  .homeQuoteText {
     text-align: center;
     margin: auto;
-    
-}
-
-.homeQuoteText{
     font-size: 50px;
     width: 90%;
-    
-}
+    padding: 2rem 0;
+  }
 
-.topBorder{
+  .topBorder {
     display: flex;
-}
-.topBorder-left{
+  }
+  .topBorder-left {
     width: 30%;
     background-color: white;
     height: 80px;
-}
-.topBorder-right{
+  }
+  .topBorder-right {
     width: 70%;
     background-color: rgb(0, 0, 0);
     height: 80px;
-}
+  }
 
-
-
-.bottomBorder{
+  .bottomBorder {
+    display: flex;
+  }
+  .bottomBorder-left {
+    width: 70%;
+    background-color: rgb(0, 0, 0);
     height: 80px;
-    background: black;
+  }
+  .bottomBorder-right {
+    width: 30%;
+    background-color: white;
+    height: 80px;
+  }
+
+  /* Bottom Section */
+
+  .homeQuote-bottomSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0 0 6rem 0;
+  }
+
+  .homeQuote-bottomSectionImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeQuote-bottomSectionImg img {
+    width: 75%;
+  }
+
+  .homeQuote-bottomSectionContent {
+    width: 50%;
+  }
+
+  .homeQuote-bottomSectionContent p {
+    font-size: 27px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    line-height: 40px;
+    letter-spacing: 2px;
+  }
 }
 
+@media only screen and (max-width: 1370px) {
+  .homeQuote-mainContainer {
+    margin-top: -1rem;
+  }
 
+  .homeQuoteText {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    width: 90%;
+    padding: 2rem 0;
+  }
+
+  .topBorder {
+    display: flex;
+  }
+  .topBorder-left {
+    width: 30%;
+    background-color: white;
+    height: 80px;
+  }
+  .topBorder-right {
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+  }
+
+  .bottomBorder {
+    display: flex;
+  }
+  .bottomBorder-left {
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+  }
+  .bottomBorder-right {
+    width: 30%;
+    background-color: white;
+    height: 80px;
+  }
+
+  /* Bottom Section */
+
+  .homeQuote-bottomSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0 0 6rem 0;
+  }
+
+  .homeQuote-bottomSectionImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeQuote-bottomSectionImg img {
+    width: 75%;
+  }
+
+  .homeQuote-bottomSectionContent {
+    width: 50%;
+  }
+
+  .homeQuote-bottomSectionContent p {
+    font-size: 27px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    line-height: 40px;
+    letter-spacing: 2px;
+  }
+}

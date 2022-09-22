@@ -1,0 +1,38 @@
+.galleryContainer{
+    overflow: hidden;
+    padding: 5rem;
+}
+
+
+.galleryTopSection{
+    display: flex;
+}
+
+.galleryBottomSection{
+    display: flex;
+    margin-top: -5rem;
+}
+
+.galleryTopSection-left img{
+    width: 90%;
+    padding: 2rem;
+}
+.galleryTopSection-right img{
+    width: 90%;
+    padding: 2rem;
+}
+
+.galleryBottomSection-left img{
+    width: 90%;
+    padding: 2rem;
+}
+
+.galleryBottomSection-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.galleryBottomSection-right img{
+    width: 90%;
+    padding: 2rem;
+}

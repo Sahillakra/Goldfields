@@ -3,6 +3,8 @@ import "../Home/Style/Home.css";
 import goldFieldLogo from "../Home/HomeImages/GoldfieldsLogo.svg"
 import homeImage from "../Home/HomeImages/homeImage.svg"
 import HomeQuote from "../HomeQuote/HomeQuote";
+import Factors from "../Factors/Factors";
+import Gallery from "../Gallery/Gallery";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       </div>
     </div>
     <HomeQuote/>
+    <Factors/>
+    <Gallery/>
     </>
   );
 };
