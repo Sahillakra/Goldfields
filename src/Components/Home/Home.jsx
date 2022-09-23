@@ -5,6 +5,7 @@ import homeImage from "../Home/HomeImages/homeImage.svg"
 import HomeQuote from "../HomeQuote/HomeQuote";
 import Factors from "../Factors/Factors";
 import Gallery from "../Gallery/Gallery";
+import Video from "../VideoSection/Video";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
     </div>
     <HomeQuote/>
     <Factors/>
+    <Video/>
     <Gallery/>
     </>
   );
