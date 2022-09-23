@@ -6,6 +6,7 @@ import HomeQuote from "../HomeQuote/HomeQuote";
 import Factors from "../Factors/Factors";
 import Gallery from "../Gallery/Gallery";
 import Video from "../VideoSection/Video";
+import HousesGallery from "../HousesGallery/HousesGallery"
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
     <Factors/>
     <Video/>
     <Gallery/>
+    <HousesGallery/>
     </>
   );
 };

@@ -1,20 +1,10 @@
-.backGround-video {
-    position: relative;
-    overflow: hidden;
-    /* object-fit: contain; */
-    width: 90%;
-    margin: auto;
-    /* height: 100vh; */
-  
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
+
   
   video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.9;
+    opacity: 1;
   }
   
   .videoContent img {

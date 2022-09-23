@@ -23,6 +23,7 @@ const Gallery = () => {
           </div>
           <div className="galleryBottomSection-right"  >
             <img src={GalleryFour} alt="" />
+            <button>BROCHURE</button>
           </div>
         </div>
       </div>
