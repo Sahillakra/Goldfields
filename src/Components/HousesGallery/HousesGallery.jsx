@@ -5,6 +5,7 @@ import houseThird from "./HousesImages/houseThird.svg";
 import houseFour from "./HousesImages/houseFour.svg";
 import houseFive from "./HousesImages/houseFive.svg";
 import BooknowBtn from "./HousesImages/BooknowBtn.svg"
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

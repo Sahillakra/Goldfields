@@ -3,11 +3,36 @@
   /* border: 1px solid red; */
 }
 
+.homeUpper-section{
+  position: relative;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-items: center;
+
+}
+
+
 .homeLogo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 2px solid yellow; */
+  /* width: 100%; */
+}
+
+
+.homeBookNow {
+  position: absolute;
+  right: 0;
+  width: 4%;
+}
+
+.homeBookNow img{
+  width: 100%;
+  cursor: pointer;
 }
 
 .homeLogo img {
