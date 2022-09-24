@@ -1,0 +1,116 @@
+.brouchure-mainContainer {
+  background-color: #f1f1f1;
+
+  width: 80%;
+  margin: auto;
+  /* margin-top: 5rem;
+    margin-bottom: 5rem; */
+  /* border: 2px solid red; */
+}
+
+.brouchurecloseButton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.brouchure-subContainer {
+  width: 50%;
+  margin: auto;
+}
+
+.brouchure-mainHeading p {
+  font-size: 60px;
+  padding: 1rem 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-align: center;
+}
+
+.brouchureformDeatils-name label,
+.brouchureformDeatils-email label,
+.brouchureformDeatils-download label {
+  font-size: 16px;
+}
+
+.brouchureformDeatils-numberLeft {
+  /* border: 2px solid red; */
+  width: 75%;
+}
+.brouchureformDeatils-numberRight {
+  /* border: 2px solid red; */
+  width: 20%;
+}
+
+.brouchureformDeatils-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brouchureformDeatils-number button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 0.7rem 0.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.brouchureformDeatils-name input,
+.brouchureformDeatils-email input,
+.brouchureformDeatils-number input,
+.brouchureformDeatils-download input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #d9d9d9;
+  outline: none;
+  margin-bottom: 1.5rem;
+  resize: none;
+}
+
+.brouchureformDeatils-description textarea {
+  width: 100% !important;
+}
+
+.brouchure-submitButton {
+  /* text-align: center; */
+  padding-bottom: 2rem;
+}
+.brouchure-submitButton button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  /* letter-spacing: 2px; */
+  cursor: pointer;
+}
+
+.brouchureformDeatils-bottom {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brouchureformDeatils-download {
+  width: 50%;
+  /* text-align: center; */
+}

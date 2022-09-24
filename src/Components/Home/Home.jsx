@@ -7,6 +7,11 @@ import Factors from "../Factors/Factors";
 import Gallery from "../Gallery/Gallery";
 import Video from "../VideoSection/Video";
 import HousesGallery from "../HousesGallery/HousesGallery"
+import Amenities from "../Amenities/Amenities";
+import Footer from "../Footer/Footer";
+import Contact from "../Contact/Contact";
+import BookNow from "../BookNow/BookNow";
+import Brouchure from "../Brouchure/Brouchure";
 
 const Home = () => {
   return (
@@ -29,6 +34,11 @@ const Home = () => {
     <Video/>
     <Gallery/>
     <HousesGallery/>
+    <Amenities/>
+    <Footer/>
+    <Brouchure/>
+    {/* <Contact/> */}
+    {/* <BookNow/> */}
     </>
   );
 };
