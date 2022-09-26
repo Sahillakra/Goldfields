@@ -66,7 +66,7 @@
 }
 
 .homeQuote-bottomSectionContent p {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   width: 75%;
   margin: auto;
@@ -153,73 +153,151 @@
   .homeQuote-mainContainer {
     margin-top: -1rem;
   }
-
+  
   .homeQuoteText {
     text-align: center;
     margin: auto;
     font-size: 50px;
-    width: 90%;
+    width: 82%;
     padding: 2rem 0;
+    line-height: 130%;
+    word-spacing: 5px;
   }
-
+  
   .topBorder {
     display: flex;
   }
   .topBorder-left {
     width: 30%;
     background-color: white;
-    height: 80px;
+    height: 90px;
   }
   .topBorder-right {
     width: 70%;
-    background-color: rgb(0, 0, 0);
-    height: 80px;
+    background-color: #161210;
+    height: 90px;
   }
-
+  
   .bottomBorder {
     display: flex;
   }
   .bottomBorder-left {
     width: 70%;
-    background-color: rgb(0, 0, 0);
-    height: 80px;
+    background-color: #161210;
+    height: 90px;
   }
   .bottomBorder-right {
     width: 30%;
     background-color: white;
-    height: 80px;
+    height: 90px;
   }
-
+  
   /* Bottom Section */
-
+  
   .homeQuote-bottomSection {
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
-    padding: 0 0 6rem 0;
+    padding: 0 0 10rem 0;
   }
-
+  
   .homeQuote-bottomSectionImg {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
   }
-
+  
   .homeQuote-bottomSectionImg img {
     width: 75%;
   }
-
+  
   .homeQuote-bottomSectionContent {
     width: 50%;
   }
-
+  
   .homeQuote-bottomSectionContent p {
-    font-size: 27px;
+    font-size: 30px;
     text-align: center;
     width: 75%;
     margin: auto;
     line-height: 40px;
     letter-spacing: 2px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 430px){
+  
+  
+  .homeQuoteText {
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+    width: 82%;
+    padding: 1rem 0;
+    line-height: 130%;
+    word-spacing: 2px;
+  }
+  
+  
+  .topBorder-left {
+    width: 30%;
+    background-color: white;
+    height:40px;
+  }
+  .topBorder-right {
+    width: 70%;
+    background-color: #161210;
+    height: 40px;
+  }
+  
+  .bottomBorder-left {
+    width: 70%;
+    background-color: #161210;
+    height: 40px;
+  }
+  .bottomBorder-right {
+    width: 30%;
+    background-color: white;
+    height: 40px;
+  }
+  
+  /* Bottom Section */
+  
+  .homeQuote-bottomSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0 0 5rem 0;
+  }
+  
+  .homeQuote-bottomSectionImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .homeQuote-bottomSectionImg img {
+    width: 75%;
+  }
+  
+  .homeQuote-bottomSectionContent {
+    width: 50%;
+  }
+  
+  .homeQuote-bottomSectionContent p {
+    font-size: 9px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 10px;
+    letter-spacing: 2px;
+    
   }
 }

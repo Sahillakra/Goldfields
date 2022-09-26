@@ -19,45 +19,45 @@ export default function App() {
     <Swiper
         slidesPerView={"auto"}
         // centeredSlides={true}
-        spaceBetween={30}
+        spaceBetween={10}
         pagination={{
             clickable: true,
             dynamicBullets: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="swiperAmenities"
       >
-        <SwiperSlide className="firstImgBlock">
+        <SwiperSlide className="firstImgBlock swiper-slideAmenities ">
           <img src={AmenitiesGolf} alt="" />
             <p>Golf</p>
         </SwiperSlide>
 
-        <SwiperSlide className="secondImgBlock">
+        <SwiperSlide className="secondImgBlock swiper-slideAmenities ">
           <img src={AmenitiesGym} alt="" />
             <p>Fully equipped gym</p>
         </SwiperSlide>
 
-        <SwiperSlide className="thirdImgBlock">
+        <SwiperSlide className="thirdImgBlock swiper-slideAmenities ">
           <img src={AmenitiesCycling} alt="" />
             <p>Cycling</p>
         </SwiperSlide>
 
-        <SwiperSlide className="fourthImgBlock">
+        <SwiperSlide className="fourthImgBlock swiper-slideAmenities ">
           <img src={AmenitiesPool} alt="" />
             <p>Terrace pool</p>
         </SwiperSlide>
 
-        <SwiperSlide className="fifthImgBlock">
+        <SwiperSlide className="fifthImgBlock swiper-slideAmenities ">
           <img src={AmenitiesPlayArea} alt="" />
             <p>Walking paths & kids play areas.</p>
         </SwiperSlide>
 
-        <SwiperSlide className="sixthImgBlock">
+        <SwiperSlide className="sixthImgBlock swiper-slideAmenities ">
           <img src={AmenitiesLawns} alt="" />
             <p>Banquet & Banquet lawns</p>
         </SwiperSlide>
 
-        <SwiperSlide className="seventhImgBlock">
+        <SwiperSlide className="seventhImgBlock swiper-slideAmenities ">
           <img src={AmenitiesIndoor} alt="" />
             <p>Indoor games</p>
         </SwiperSlide>

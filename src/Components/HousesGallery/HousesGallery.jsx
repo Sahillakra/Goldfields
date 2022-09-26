@@ -24,13 +24,13 @@ export default function App() {
       <div className="houseGalleryContainer">
         <Swiper
           slidesPerView={"auto"}
-          spaceBetween={30}
+          spaceBetween={-30}
           pagination={{
             clickable: true,
             dynamicBullets: true,
           }}
           modules={[Pagination]}
-          className="mySwiper"
+          className="mySwiperHouseGallery"
         >
           <SwiperSlide className="houseOne">
             <img src={houseOne} alt="" />

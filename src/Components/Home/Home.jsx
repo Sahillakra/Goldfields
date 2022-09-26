@@ -27,7 +27,7 @@ const Home = () => {
           </div>
      
           
-          <div className="homeBookNow" > <img src={booknowHomeButton} alt="" /></div>
+          {/* <div className="homeBookNow" > <img src={booknowHomeButton} alt="" /></div> */}
     
         </div>
          
@@ -46,9 +46,9 @@ const Home = () => {
     <Amenities/>
     <AmenitiesGallery/>
     <Footer/>
-    {/* <Brouchure/> */}
-    {/* <Contact/> */}
-    {/* <BookNow/> */}
+    {/* <Brouchure/>
+    <Contact/>
+    <BookNow/> */}
     </>
   );
 };

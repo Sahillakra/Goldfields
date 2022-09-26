@@ -24,6 +24,7 @@
     margin-block-end: 0em;
     text-align: center;
     padding: 1rem 0;
+    font-size: 9px;
 }
 
 .footer-left {
@@ -70,4 +71,83 @@
 
 .footer-right-last hr{
     width: 100%;
+}
+
+
+@media only screen and (max-width: 430px){
+    
+
+
+.footerUpper{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0E0505;
+    color: white;
+    /* height: 50vh; */
+    padding: 2rem 2rem;
+}
+
+.footerBottom{
+    background-color:#0E0505;
+    color: white;
+}
+
+.footerBottom p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-left {
+    width: 50%;
+    /* border: 1px solid white; */
+}
+.footer-left img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+}
+
+.footer-center{
+    /* width: 40%; */
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem 0;
+    /* padding-right: 5rem; */
+}
+
+.footer-center p{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding: 0.1rem 0;
+}
+
+.footer-right{
+    padding-right:0rem;
+} 
+
+.footer-right p{
+    cursor: pointer;
+    font-size: 13px;
+    padding: 0rem 0;
+    text-align: center;
+}
+
+.footer-right hr{
+    width: 50%;
+}
+
+.footer-right-last hr{
+    width: 100%;
+}
 }

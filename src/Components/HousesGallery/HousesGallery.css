@@ -4,9 +4,10 @@
 }
 
 
-.swiper {
+.mySwiperHouseGallery {
     width: 100%;
     height: 100%;
+    margin-left: 5rem;
   }
   
   .swiper-slide {
@@ -60,6 +61,7 @@
   .houseOne img {
     width: 90%;
     padding-bottom: 3rem;
+    
   }
 
   .houseTwo img {
@@ -92,3 +94,20 @@
     width: 80%;
   }
   
+
+
+
+
+  @media only screen and (max-width: 430px){
+  
+    .HouseGalleryBookNow-btn img{
+      width: 30% !important;
+    }
+
+    .mySwiperHouseGallery {
+      width: 100%;
+      height: 100%;
+      margin-left: 2rem;
+    }
+  
+  }
