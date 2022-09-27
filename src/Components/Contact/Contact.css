@@ -1,4 +1,7 @@
 .contact-mainContainer{
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
     background-color: #F1F1F1;
 
     width: 80%;
@@ -21,11 +24,16 @@
     margin: auto;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 
 .contact-mainHeading p{
-    font-size: 60px;
-    padding: 1rem 0;
+    font-size: 50px;
+    padding: 0.5rem 0;
     margin-block-end: 0;
     margin-block-start: 0;
     text-align: center;
@@ -41,7 +49,7 @@
 
 .contactformDeatils-name input,.contactformDeatils-email input,.contactformDeatils-number input ,.contactformDeatils-description textarea{
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 16px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -49,12 +57,13 @@
     box-sizing: border-box;
     background-color: #D9D9D9;
     outline: none;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     resize: none;
 }
 
 .contactformDeatils-description textarea{
     width: 100% !important;
+    height: 100px;
 }
 
 .contact-submitButton{

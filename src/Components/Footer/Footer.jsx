@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import GoldfieldsLogo from "./FooterImage/GoldfieldsLogo.svg";
 
 const Footer = () => {
   return (
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="footerContainer">
         <div className="footerUpper">
           <div className="footer-left">
-            <img src={GoldfieldsLogo} alt="" />
+            <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FGoldfieldsLogo.svg?alt=media&token=eec1cf03-d5c0-4a67-8312-9ded5a1b33f5"} alt="" />
           </div>
 
           <div className="footer-center">

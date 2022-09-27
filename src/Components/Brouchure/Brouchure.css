@@ -1,5 +1,8 @@
 .brouchure-mainContainer {
-  background-color: #f1f1f1;
+  position: absolute;
+  top: 35%;
+  left: 9.2%;
+  background-color: hsl(0, 0%, 95%);
 
   width: 80%;
   margin: auto;

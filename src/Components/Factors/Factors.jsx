@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Factors.css";
-import contactButtonImg from "../Factors/FactorsImage/contactButtonImg.svg";
+import Contact from "../Contact/Contact";
+
+
 const Factors = () => {
+  const [showBrochure, setShowBrochure] = useState(false);
   return (
     <>
       <div className="factorsContainer">
@@ -28,12 +31,15 @@ const Factors = () => {
         <div className="factors-bottomSection"></div>
       </div>
       <div className="factorsContact-container">
-        <img src={contactButtonImg} alt="" />
+        <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FcontactButtonImg.svg?alt=media&token=d0029c2a-b49f-4257-8bb4-87a529e63f52"} alt="" />
         <div className="factorsContantButton">
           <p>Everything to cater all your requirements.</p>
-          <button>Contact</button>
+          <button onClick={() => setShowBrochure(!showBrochure)}  >Contact</button>
         </div>
+        
+        {showBrochure && <Contact setShowBrochure={setShowBrochure} />}
       </div>
+      
     </>
   );
 };

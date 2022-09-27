@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeQuote.css";
-import homeQuoteBottom from "./HomeQuoteImages/homeQuoteBottom.svg";
 
 const HomeQuote = () => {
   return (
@@ -23,7 +22,7 @@ const HomeQuote = () => {
         </div>
         <div className="homeQuote-bottomSection">
           <div className="homeQuote-bottomSectionImg">
-            <img src={homeQuoteBottom} alt="" />
+            <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhomeQuoteBottom.svg?alt=media&token=d43436e5-6a53-481d-913a-af4ab157f0bb"} alt="" />
           </div>
           <div className="homeQuote-bottomSectionContent">
             <p>

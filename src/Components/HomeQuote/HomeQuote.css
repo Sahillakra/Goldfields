@@ -267,19 +267,11 @@
   }
   
   /* Bottom Section */
-  
   .homeQuote-bottomSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid red; */
     padding: 0 0 5rem 0;
   }
   
   .homeQuote-bottomSectionImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 50%;
   }
   
@@ -289,15 +281,20 @@
   
   .homeQuote-bottomSectionContent {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    
   }
   
   .homeQuote-bottomSectionContent p {
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
-    width: 80%;
+    width: 85%;
     margin: auto;
-    line-height: 10px;
-    letter-spacing: 2px;
+    line-height: 13px;
+    letter-spacing: 1px;
     
   }
 }
