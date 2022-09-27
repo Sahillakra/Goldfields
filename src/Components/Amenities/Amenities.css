@@ -101,7 +101,7 @@
   }
   
   .Amenities-content p{
-    font-size: 13px;
+    font-size: 12px;
   }
   
   .Amenities-ImageAndDetials{
@@ -146,5 +146,122 @@
     padding: 0 1rem 0 0;
   }
   
+}  
+
+
+
+
+@media only screen and (max-width: 375px){
+
+  .Amenities-heading {
+    width: 65%;
+  }
+  
+  .Amenities-heading p {
+    font-size: 28px;
+    color: white;
+    padding-left: 2.5rem;
+    /* padding: 2rem; */
+  }
+  
+  
+  .Amenities-content{
+    padding: 2rem 0 2rem 3rem;
+  }
+  
+  .Amenities-content p{
+    font-size: 11px;
+  }
+  
+  .Amenities-ImageAndDetials{
+    position: relative;
+  }
+  
+  .Amenities-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .Amenities-ImageAndDetials img{
+    width: 70%;
+  }
+  
+  .Amenities-Detials{
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    bottom: -5%;
+   border: 1px solid black;
+   width: 70%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+  
+  .Amenities-Detials p{
+    font-size: 9px;
+    text-align: center;
+  }
+  
+  .Amenities-Detials-left{
+    border-right: 1px solid black;
+    padding: 0rem 1rem 0 0;
+  }
+  
+  .Amenities-Detials-center{
+    border-right: 1px solid black;
+    padding: 0 1rem 0 0;
+  }
   
 }  
+
+
+
+
+@media only screen and (max-width: 320px){
+
+  .Amenities-heading {
+    width: 65%;
+  }
+  
+  .Amenities-heading p {
+    font-size: 25px;
+    color: white;
+    padding-left: 2.5rem;
+    /* padding: 2rem; */
+  }
+  
+  
+  .Amenities-content{
+    padding: 2rem 0 2rem 2.5rem;
+  }
+  
+  .Amenities-content p{
+    font-size: 11px;
+  }
+  
+
+  
+  .Amenities-Detials p{
+    font-size: 8px;
+    text-align: center;
+  }
+  
+  .Amenities-Detials-left{
+    border-right: 1px solid black;
+    padding: 0rem 1rem 0 0;
+  }
+  
+  .Amenities-Detials-center{
+    border-right: 1px solid black;
+    padding: 0 1rem 0 0;
+  }
+  
+}  
+
+
+
+
+

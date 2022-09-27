@@ -1,5 +1,5 @@
 .galleryContainer {
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 5rem;
     position: relative;
   }
@@ -57,10 +57,10 @@
 
 @media only screen and (max-width: 430px){
     .galleryContainer{
-        overflow: hidden;
-        padding: 1rem;
-        margin-top: 5rem;
-      
+        /* overflow: hidden; */
+        padding: 0.8rem;
+        margin-top: 3rem;
+        position: relative;
     }
     
     
@@ -116,3 +116,29 @@
     }
     
 }
+
+
+
+
+@media only screen and (max-width: 320px){
+  .galleryContainer{
+      /* overflow: hidden; */
+      padding: 0rem 1rem 0 0.1rem;
+      margin-top: 3rem;
+      position: relative;
+  }
+  
+  
+  
+  .galleryBottomSection-right button{
+      position: absolute;
+      right: 11%;
+      bottom: 18%;
+      padding: 10px 14px;
+      font-size: 8px;
+
+  }
+  
+}
+
+

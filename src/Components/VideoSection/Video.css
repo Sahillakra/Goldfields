@@ -32,3 +32,19 @@
   }
     
 }
+
+@media only screen and (max-width: 375px){
+
+  .videoContent{
+    padding: 1rem 1rem;
+  }
+    
+}
+
+@media only screen and (max-width: 320px){
+
+  .videoContent{
+    padding: 2rem 1.2rem 0rem 1.2rem;
+  }
+    
+}

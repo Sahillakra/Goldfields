@@ -298,3 +298,65 @@
     
   }
 }
+
+
+
+@media only screen and (max-width: 375px){
+
+  .homeQuoteText {
+    font-size: 12px;
+  }
+  
+  
+  .topBorder-left {
+    height:30px;
+  }
+  .topBorder-right {
+    height: 30px;
+  }
+  
+  .bottomBorder-left {
+    height: 30px;
+  }
+  .bottomBorder-right {
+    height: 30px;
+  }
+  
+  
+  .homeQuote-bottomSectionContent p {
+    font-size: 9px;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+
+  .homeQuoteText {
+    font-size: 10px;
+  }
+  
+  
+  .topBorder-left {
+    height:25px;
+  }
+  .topBorder-right {
+    height: 25px;
+  }
+  
+  .bottomBorder-left {
+    height: 25px;
+  }
+  .bottomBorder-right {
+    height: 25px;
+  }
+  
+  
+  .homeQuote-bottomSectionContent p {
+    font-size: 9px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    line-height: 10px;
+    letter-spacing: 1px;
+  }
+}

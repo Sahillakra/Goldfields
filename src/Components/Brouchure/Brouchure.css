@@ -76,7 +76,6 @@
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
   background-color: #d9d9d9;
   outline: none;
@@ -116,4 +115,134 @@
 .brouchureformDeatils-download {
   width: 50%;
   /* text-align: center; */
+}
+
+
+
+
+
+@media only screen and (max-width: 430px){
+  .brouchure-mainContainer {
+    position: absolute;
+    top: -5%;
+    left: 9.2%;
+    background-color: hsl(0, 0%, 95%);
+  
+    width: 80%;
+    margin: auto;
+    /* margin-top: 5rem;
+      margin-bottom: 5rem; */
+    /* border: 2px solid red; */
+  }
+  
+  .brouchurecloseButton {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0.5rem;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .brouchure-subContainer {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .brouchure-mainHeading p {
+    font-size: 25px;
+    padding: 0.5rem 0;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        text-align: center;
+  }
+  
+  .brouchureformDeatils-name label,
+  .brouchureformDeatils-email label,
+  .brouchureformDeatils-download label {
+    font-size: 10px;
+  }
+  
+  .brouchureformDeatils-numberLeft {
+    /* border: 2px solid red; */
+    width: 65%;
+    font-size: 10px;
+    padding: 0.5rem 0;
+  }
+  .brouchureformDeatils-numberRight {
+    /* border: 2px solid red; */
+    width:30%;
+  }
+  
+  .brouchureformDeatils-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .brouchureformDeatils-number button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 0.55rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 0.3rem;
+  }
+  
+  .brouchureformDeatils-name input,
+  .brouchureformDeatils-email input,
+  .brouchureformDeatils-number input,
+  .brouchureformDeatils-download input {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+    outline: none;
+    margin-bottom: 0.5rem;
+    resize: none;
+  }
+  
+  .brouchureformDeatils-description textarea {
+    width: 100% !important;
+  }
+  
+  .brouchure-submitButton {
+    /* text-align: center; */
+    padding-bottom: 2rem;
+    margin-top: 0.3rem;
+  }
+  .brouchure-submitButton button {
+    background-color: #000000; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        letter-spacing: 1px;
+        cursor: pointer;
+  }
+  
+  .brouchureformDeatils-bottom {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brouchureformDeatils-download {
+    width: 50%;
+    /* text-align: center; */
+  }
 }
