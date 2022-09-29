@@ -165,6 +165,66 @@
 }
 
 
+
+@media only screen and (max-width: 1024px) {
+
+  
+  .Amenities-heading {
+    background-color: #161210;
+    width: 60%;
+  }
+  
+  .Amenities-heading p {
+    font-size: 55px;
+  }
+  
+  .Amenities-content {
+    padding: 2rem 0 2rem 7rem;
+  }
+  
+  .Amenities-content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+  
+
+  
+  .Amenities-ImageAndDetials img {
+    width: 70%;
+  }
+  
+  .Amenities-Detials {
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    bottom: -8%;
+    border: 1px solid black;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .Amenities-Detials p {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .Amenities-Detials-left {
+    border-right: 1px solid black;
+    padding: 0rem 2rem 0 0;
+  }
+  
+  .Amenities-Detials-center {
+    border-right: 1px solid black;
+    padding: 0rem 3rem 0 0;
+  }
+}
+
+
+
 @media only screen and (max-width: 768px) {
 
   

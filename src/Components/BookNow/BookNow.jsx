@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./BookNow.css";
 import { CgClose } from "react-icons/cg";
 import axios from "axios";
+import validator from "email-validator"; 
+import swal from "sweetalert"; 
 
 const BookNow = ({ setShowBookNow }) => {
   // const [showBrochure, setShowBookNow] = useState(false);
@@ -13,14 +15,20 @@ const BookNow = ({ setShowBookNow }) => {
   });
 
   async function sendMail() {
-    if (
-      !formDetails.name ||
-      !formDetails.email ||
-      !formDetails.mobileNo ||
-      !formDetails.desc
-    ) {
-      alert("all fields are required");
-    }
+    if (!
+      formDetails.name
+       || !formDetails.mobileNo || !formDetails.desc) {
+            return alert("all fields are required");
+          } else if (!validator.validate(
+      formDetails.email
+      )) {
+            return alert("Enter a valid email");
+          } else if (
+            formDetails.mobileNo.length < 10 &&
+            formDetails.mobileNo.length > 10
+          ) {
+            return alert("Enter a valid mobile no");
+          } 
     let obj = {
       name: formDetails.name,
       email: formDetails.email,
@@ -36,6 +44,11 @@ const BookNow = ({ setShowBookNow }) => {
       email: "",
       mobileNo: "",
     });
+
+    swal("Success!", "Query submitted successfully", "success", {
+      button: "close",
+    });
+    setShowBookNow(false); 
   }
 
   return (

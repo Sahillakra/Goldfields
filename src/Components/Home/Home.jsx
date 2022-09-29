@@ -19,13 +19,13 @@ const Home = () => {
   return (
     <>
       <div className="home-superContainer">
-        <a href="https://wa.me/9087856027" className="chat-icon">
+        <a href="https://wa.me/+919087856027" className="chat-icon" target="_blank" rel="noopener noreferrer" >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png"
+            src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2Ftest.webp?alt=media&token=b86b8647-5e02-488b-869b-3b6613747ff2"}
             alt=""
           />
         </a>
-        <a href="tel:9087856027" className="call-icon">
+        <a href="tel:+919087856027" className="call-icon"  >
           <img
             src={
               "https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2F9-99404_contact-icons-png.png?alt=media&token=ab5ee9da-b40a-479b-86ff-f93d6217113f"

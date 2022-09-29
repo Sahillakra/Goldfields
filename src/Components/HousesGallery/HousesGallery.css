@@ -96,7 +96,11 @@
     width: 80%;
   }
   
-
+  @media only screen and (max-width: 1024px){
+    .HouseGalleryBookNow-btn img{
+      width: 30% !important;
+    }
+  }
 
   @media only screen and (max-width: 768px){
     .HouseGalleryBookNow-btn img{

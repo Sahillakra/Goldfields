@@ -3,6 +3,8 @@ import "./Brouchure.css";
 import { CgClose } from "react-icons/cg";
 import firebase from "../../firebase";
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
+import validator from "email-validator"; 
+
 import {
   getAuth,
   RecaptchaVerifier,
@@ -22,7 +24,6 @@ const Brouchure = ({ setShowBrochure }) => {
     mobileNo: "",
     otp: "",
   });
-  console.log(formDetails);
 
   function verifyCaptcha(e) {
     e.preventDefault();
@@ -82,6 +83,21 @@ const Brouchure = ({ setShowBrochure }) => {
   }
 
   async function sendMail() {
+    if (!
+      formDetails.name
+       || !formDetails.mobileNo ) {
+            return alert("all fields are required");
+          } else if (!validator.validate(
+      formDetails.email
+      )) {
+            return alert("Enter a valid email");
+          } else if (
+            formDetails.mobileNo.length < 10 &&
+            formDetails.mobileNo.length > 10
+          ) {
+            return alert("Enter a valid mobile no");
+          } 
+
     let obj = {
       name: formDetails.name,
       email: formDetails.email,

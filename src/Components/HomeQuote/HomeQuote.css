@@ -197,6 +197,71 @@
 }
 
 
+
+@media only screen and (max-width: 1024px) {
+
+  .homeQuoteText {
+    font-size: 28px;
+    width: 85%;
+    padding: 2rem 0;
+    line-height: 130%;
+    word-spacing: 5px;
+  }
+  .topBorder-left {
+    height: 55px;
+  }
+  .topBorder-right {
+    height:55px;
+  }
+  
+  .bottomBorder-left {
+    height:55px;
+  }
+  .bottomBorder-right {
+    height:55px;
+  }
+  
+  /* Bottom Section */
+  
+  .homeQuote-bottomSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0 0 10rem 0;
+  }
+  
+  .homeQuote-bottomSectionImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  
+  .homeQuote-bottomSectionImg img {
+    width: 75%;
+  }
+  
+  .homeQuote-bottomSectionContent {
+    width: 50%;
+  }
+  
+  .homeQuote-bottomSectionContent p {
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin-left: 0rem;
+    /* margin: auto; */
+    line-height: 25px;
+    letter-spacing: 2px;
+    /* padding-right: 4rem; */
+  }
+}
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 
   .homeQuoteText {

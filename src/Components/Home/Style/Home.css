@@ -47,29 +47,28 @@
   padding: 0;
   /* border: 2px solid green; */
 }
-
 .chat-icon {
   position: fixed;
-  right: -46.5%;
-  top: 50%;
+  right: -45.8%;
+  top: 48%;
   z-index: 1000 !important;
   width: 50%;
 }
 .chat-icon img {
-  width: 5%;
+  width: 8%;
   right: 0;
   z-index: 1000 !important;
 }
 
 .call-icon {
   position: fixed;
-  right: -46.5%;
-  top: 42%;
+  right: -45.8%;
+  top: 40%;
   z-index: 1000 !important;
   width: 50%;
 }
 .call-icon img {
-  width: 4%;
+  width: 7%;
   z-index: 1000 !important;
 }
 
@@ -83,10 +82,10 @@
 }
 .book-icon img {
   position: fixed;
-  right: -0%;
-  top: 58%;
+  right: 0.3%;
+  top: 57%;
   z-index: 1000 !important;
-  width: 4%;
+  width: 3.8%;
   cursor: pointer;
 }
 
@@ -241,6 +240,26 @@
     width: 3.8%;
     
 
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  
+  
+  .homeLogo img {
+    width: 45%;
+    padding: 4.5rem 0 0 0;
+  }
+  
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+    font-size: 3.5rem;
+    width: 100%;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
   }
 }
 
@@ -430,3 +449,50 @@
 }
 
 }
+
+
+
+
+@media only screen and (max-width: 375px) {
+  .homeLogo img {
+    width: 50%;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-size: 30px;
+    width: 97%;
+    font-weight: 500;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+  .homeLogo img {
+    width: 50%;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .home-mainHead {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-size: 27px;
+    width: 97%;
+    font-weight: 500;
+    margin-block-end: 2rem;
+    margin-block-start: 2rem;
+  }
+
+
+}
+

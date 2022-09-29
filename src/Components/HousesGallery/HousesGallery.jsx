@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-import BookNow from "../BookNow/BookNow";
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

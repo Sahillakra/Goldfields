@@ -2,15 +2,10 @@
   position: absolute;
   right: 10%;
   top: 10%;
-  /* left: 50%; */
   background-color: #f1f1f1;
-  /* opacity: 0.98; */
   width: 80%;
   margin: auto;
   z-index: 60;
-  /* margin-top: 5rem;
-    margin-bottom: 5rem; */
-  /* border: 2px solid red; */
 }
 
 .bookNowcloseButton {
@@ -91,7 +86,7 @@
 @media only screen and (max-width: 768px) {
   .bookNow-mainContainer {
     position: absolute;
-    top: 5%;
+    top: 2%;
   }
   
   .bookNowcloseButton {
@@ -167,16 +162,10 @@
     position: absolute;
     right: 8%;
     top: 15%;
-    /* left: 50%; */
     background-color: #f1f1f1;
-    /* opacity: 0.98; */
     width: 80%;
     margin: auto;
     z-index: 60;
-    /* height: 80vh; */
-    /* margin-top: 5rem;
-        margin-bottom: 5rem; */
-    /* border: 2px solid red; */
   }
 
   .bookNowcloseButton {
@@ -189,8 +178,6 @@
 
   .bookNow-subContainer {
     width: 80%;
-    
-    /* border: 2px solid blue; */
     margin: auto;
   }
 
