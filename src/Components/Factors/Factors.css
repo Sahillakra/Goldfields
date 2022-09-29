@@ -3,20 +3,22 @@
 }
 
 .factors-headingArea {
-  /* background-color: rgb(222, 0, 0); */
+  background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: end;
+  justify-content: end !important;
 }
 
 .factors-heading {
   background-color: #161210;
   width: 93.5%;
+  display: flex;
+  justify-content: center !important;
 }
 
 .factors-heading p {
   font-size: 50px;
   color: white;
-  padding-left: 3rem;
+  padding-left: 0rem;
   line-height: 120%;
   letter-spacing: 3px;
   /* text-align: center; */
@@ -38,7 +40,7 @@
 }
 
 .factors-subContent-text p {
-  font-size: 30px;
+  font-size: 28px;
   padding: 0rem 0 2.5rem 0;
 }
 
@@ -74,7 +76,7 @@
 
 .factorsContantButton p {
   line-height: 120%;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 
@@ -82,11 +84,11 @@
   background-color: #000000; /* Green */
   border: none;
   color: white;
-  padding: 30px 80px;
+  padding: 18px 50px;
   text-align: center;
   text-decoration: none;
   /* display: inline-block; */
-  font-size: 30px;
+  font-size: 20px;
   line-height: 120%;
   letter-spacing: 3px;
   font-weight: 500 !important;
@@ -94,16 +96,6 @@
 }
 
 @media only screen and (max-width: 1440px) {
-  .factorsContainer {
-    /* border: 2px solid red; */
-  }
-
-  .factors-headingArea {
-    /* background-color: rgb(222, 0, 0); */
-    display: flex;
-    justify-content: end;
-  }
-
   .factors-heading {
     background-color: black;
     width: 93.5%;
@@ -122,16 +114,8 @@
         border: 1px solid red; */
   }
 
-  .factors-subContent {
-    display: flex;
-    /* border: 2px solid red; */
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-  }
-
   .factors-subContent-text p {
-    font-size: 25px;
+    font-size: 27px;
     padding: 1rem 0;
   }
 
@@ -142,37 +126,24 @@
     margin: auto;
   }
 
-  .factorsContact-container {
-    position: relative;
-  }
-
-  .factorsContact-container img {
-    width: 100%;
-  }
-
   .factorsContantButton {
     position: absolute;
     bottom: 20%;
-    left: 13%;
+    left: 15%;
     /* border: 2px solid red; */
     text-align: center;
   }
 
   .factorsContantButton p {
     line-height: 120%;
-    font-size: 40px;
+    font-size: 27px;
     letter-spacing: 2px;
   }
 
   .factorsContantButton button {
-    background-color: #000000; /* Green */
-    border: none;
-    color: white;
-    padding: 30px 80px;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 30px;
+    padding: 18px 50px;
+
+    font-size: 20px;
     line-height: 120%;
     letter-spacing: 3px;
     font-weight: 500 !important;
@@ -196,14 +167,14 @@
   }
 
   .factors-heading p {
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     text-align: center;
     /* padding: 2rem; */
   }
 
   .factors-content {
-    padding: 6rem 5rem;
+    padding: 4rem 5rem;
     /* 
         border: 1px solid red; */
   }
@@ -238,15 +209,15 @@
 
   .factorsContantButton {
     position: absolute;
-    bottom: 20%;
-    left: 13%;
+    bottom: 25%;
+    left: 18%;
     /* border: 2px solid red; */
     text-align: center;
   }
 
   .factorsContantButton p {
     line-height: 120%;
-    font-size: 40px;
+    font-size: 25px;
     letter-spacing: 2px;
   }
 
@@ -254,41 +225,39 @@
     background-color: #000000; /* Green */
     border: none;
     color: white;
-    padding: 30px 80px;
+    padding: 10px 18px;
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */
-    font-size: 30px;
+    font-size: 18px;
     line-height: 120%;
-    letter-spacing: 3px;
-    font-weight: 500 !important;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
   }
 }
 
 
 
-@media only screen and (max-width: 430px){
-
-  
+@media only screen and (max-width: 768px) {
   .factors-heading {
     background-color: #161210;
     width: 93.5%;
   }
-  
+
   .factors-heading p {
-    font-size:15px;
+    font-size: 25px;
     color: white;
     padding-left: 0rem;
     line-height: 120%;
     letter-spacing: 1px;
   }
-  
+
   .factors-content {
-    padding: 1.5rem 2rem;
+    padding: 2rem 2rem;
     /* 
       border: 1px solid red; */
   }
-  
+
   .factors-subContent {
     display: flex;
     /* border: 2px solid red; */
@@ -296,11 +265,87 @@
     width: 90%;
     margin: auto;
   }
-  
+
+  .factors-subContent-text p {
+    font-size: 16px;
+    padding: 0rem 0 1.5rem 0;
+  }
+  .factors-bottomSection {
+    height: 15px;
+    background-color: black;
+    width: 60%;
+    margin: auto;
+  }
+
+  .factorsContact-container {
+    position: relative;
+  }
+
+  .factorsContact-container img {
+    width: 100%;
+  }
+
+  .factorsContantButton {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    /* border: 2px solid red; */
+    text-align: center;
+  }
+
+  .factorsContantButton p {
+    line-height: 120%;
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+
+  .factorsContantButton button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-weight: 400 !important;
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+  .factors-heading {
+    background-color: #161210;
+    width: 95.5%;
+  }
+
+  .factors-heading p {
+    font-size: 14px;
+    color: white;
+    padding-left: 0rem;
+    line-height: 120%;
+    letter-spacing: 1px;
+  }
+
+  .factors-content {
+    padding: 1.5rem 2rem;
+    /* 
+      border: 1px solid red; */
+  }
+
+  .factors-subContent {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+  }
+
   .factors-subContent-text p {
     font-size: 9px;
     padding: 0rem 0 1.5rem 0;
-    
   }
   .factors-bottomSection {
     height: 15px;
@@ -314,15 +359,15 @@
     width: 100%;
     height: 100vh;
   } */
-  
+
   .factorsContact-container {
     position: relative;
   }
-  
+
   .factorsContact-container img {
     width: 100%;
   }
-  
+
   .factorsContantButton {
     position: absolute;
     bottom: 15%;
@@ -330,13 +375,13 @@
     /* border: 2px solid red; */
     text-align: center;
   }
-  
+
   .factorsContantButton p {
     line-height: 120%;
-    font-size:13px;
-    letter-spacing:0px;
+    font-size: 13px;
+    letter-spacing: 0px;
   }
-  
+
   .factorsContantButton button {
     background-color: #000000; /* Green */
     border: none;
@@ -352,116 +397,23 @@
   }
 }
 
-
-
-
-@media only screen and (max-width: 430px){
-
-  
+@media only screen and (max-width: 375px) {
   .factors-heading {
     background-color: #161210;
     width: 95.5%;
   }
-  
+
   .factors-heading p {
-    font-size:14px;
-    color: white;
-    padding-left: 0rem;
-    line-height: 120%;
-    letter-spacing: 1px;
+    font-size: 12px;
   }
-  
-  .factors-content {
-    padding: 1.5rem 2rem;
-    /* 
-      border: 1px solid red; */
-  }
-  
-  .factors-subContent {
-    display: flex;
-    /* border: 2px solid red; */
-    justify-content: space-around;
-    width: 90%;
-    margin: auto;
-  }
-  
-  .factors-subContent-text p {
-    font-size: 9px;
-    padding: 0rem 0 1.5rem 0;
-    
-  }
-  .factors-bottomSection {
-    height: 15px;
-    background-color: black;
-    width: 60%;
-    margin: auto;
-  }
-  /* 
-  .factorsContact-container {
-    background: url(./FactorsImage/contactButtonImg.svg);
-    width: 100%;
-    height: 100vh;
-  } */
-  
-  .factorsContact-container {
-    position: relative;
-  }
-  
-  .factorsContact-container img {
-    width: 100%;
-  }
-  
-  .factorsContantButton {
-    position: absolute;
-    bottom: 15%;
-    left: 12%;
-    /* border: 2px solid red; */
-    text-align: center;
-  }
-  
-  .factorsContantButton p {
-    line-height: 120%;
-    font-size:13px;
-    letter-spacing:0px;
-  }
-  
-  .factorsContantButton button {
-    background-color: #000000; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 25px;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 10px;
-    line-height: 120%;
-    letter-spacing: 1px;
-    font-weight: 400 !important;
-  }
-}
 
-
-@media only screen and (max-width: 375px){
-
-  
-  .factors-heading {
-    background-color: #161210;
-    width: 95.5%;
-  }
-  
-  .factors-heading p {
-    font-size:14px;
-  }
-  
   .factors-content {
     padding: 1rem 2rem;
   }
-  
-  
+
   .factors-subContent-text p {
     font-size: 9px;
     padding: 0rem 0 1.2rem 0;
-    
   }
   .factors-bottomSection {
     height: 12px;
@@ -474,40 +426,31 @@
     /* border: 2px solid red; */
     text-align: center;
   }
-  
+
   .factorsContantButton p {
     line-height: 120%;
-    font-size:10px;
-    letter-spacing:0px;
+    font-size: 10px;
+    letter-spacing: 0px;
   }
-  
 }
 
-
-
-
-
-@media only screen and (max-width: 320px){
-
-  
+@media only screen and (max-width: 320px) {
   .factors-heading {
     background-color: #161210;
     width: 95.5%;
   }
-  
+
   .factors-heading p {
-    font-size:10px;
+    font-size: 10px;
   }
-  
+
   .factors-content {
     padding: 1rem 2rem;
   }
-  
-  
+
   .factors-subContent-text p {
     font-size: 8px;
     padding: 0rem 0 0.8rem 0;
-    
   }
   .factors-bottomSection {
     height: 8px;
@@ -520,11 +463,10 @@
     /* border: 2px solid red; */
     text-align: center;
   }
-  
+
   .factorsContantButton p {
     line-height: 120%;
-    font-size:8px;
-    letter-spacing:0px;
+    font-size: 8px;
+    letter-spacing: 0px;
   }
-  
 }

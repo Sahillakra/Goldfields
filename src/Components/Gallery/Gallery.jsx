@@ -3,9 +3,7 @@ import "./Gallery.css";
 import Brouchure from "../Brouchure/Brouchure";
 
 
-const Gallery = () => {
-  const [showBrochure, setShowBrochure] = useState(false);
-
+const Gallery = ({setShowBrochure,showBrochure}) => {
   return (
     <>
       <div className="galleryContainer">
@@ -28,7 +26,7 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        {showBrochure && <Brouchure setShowBrochure={setShowBrochure} />}
+        
       </div>
     </>
   );

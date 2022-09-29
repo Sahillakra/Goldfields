@@ -13,13 +13,12 @@ import "./HousesGallery.css";
 // import required modules
 import { Pagination } from "swiper";
 
-export default function App() {
-  const [showBrochure, setShowBrochure] = useState(false);
+export default function App({setShowBookNow,showBookNow}) {
   return (
     <>
     
       <div className="houseGalleryContainer">
-      {showBrochure && <BookNow setShowBrochure={setShowBrochure} />}
+      
         <Swiper
           slidesPerView={"auto"}
           spaceBetween={-30}
@@ -32,8 +31,8 @@ export default function App() {
         >
           <SwiperSlide className="houseOne">
             <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhouseOne.svg?alt=media&token=b7965433-164e-425f-a570-7d33f978e12f'} alt="" />
-            <div className="HouseGalleryBookNow-btn" onClick={() => setShowBrochure(!showBrochure)} >
-            <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FBooknowBtn.svg?alt=media&token=39e0494f-3b75-41b8-9b1e-227db6079cb9'} alt=""   />
+            <div className="HouseGalleryBookNow-btn">
+            <img onClick={() => setShowBookNow(!showBookNow)}   src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FBooknowBtn.svg?alt=media&token=39e0494f-3b75-41b8-9b1e-227db6079cb9'} alt=""   />
             </div>
             
           </SwiperSlide>

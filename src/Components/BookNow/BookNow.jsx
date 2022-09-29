@@ -3,8 +3,8 @@ import "./BookNow.css";
 import { CgClose } from "react-icons/cg";
 import axios from "axios";
 
-const BookNow = ({ setShowBrochure }) => {
-  // const [showBrochure, setShowBrochure] = useState(false);
+const BookNow = ({ setShowBookNow }) => {
+  // const [showBrochure, setShowBookNow] = useState(false);
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
@@ -42,7 +42,7 @@ const BookNow = ({ setShowBrochure }) => {
     <>
       <div className="bookNow-mainContainer">
         <div className="bookNowcloseButton"
-        onClick={() => setShowBrochure(false)}
+        onClick={() => setShowBookNow(false)}
         >
           <CgClose />
         </div>

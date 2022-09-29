@@ -3,7 +3,7 @@ import "./Contact.css";
 import { CgClose } from "react-icons/cg";
 import axios from "axios";
 
-const Contact = ({ setShowBrochure }) => {
+const Contact = ({ setShowContact }) => {
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
@@ -40,7 +40,7 @@ const Contact = ({ setShowBrochure }) => {
     <>
       <div className="contact-mainContainer">
         <div className="ContactcloseButton"
-          onClick={() => setShowBrochure(false)}
+          onClick={() => setShowContact(false)}
         >
           
           <CgClose />

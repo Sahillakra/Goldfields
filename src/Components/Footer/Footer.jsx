@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({setShowBookNow,showBookNow,setShowBrochure,showBrochure,setShowContact,showContact}) => {
   return (
     <>
       <div className="footerContainer">
@@ -25,19 +25,21 @@ const Footer = () => {
           </div>
 
           <div className="footer-right">
-            <p>
+            <p onClick={() => setShowBookNow(!showBookNow)}  >
               Book now
-              <hr />
+              
             </p>
-
-            <p>
+            <hr />
+            <p  onClick={() => setShowContact(!showContact)}  >
               Contact Us
-              <hr />
+              
             </p>
-            <p className="footer-right-last">
+            <hr />
+            <p onClick={() => setShowBrochure(!showBrochure)}   className="footer-right-last">
               Download Brouchre
-              <hr />
+              
             </p>
+            <hr />
           </div>
       
         </div>

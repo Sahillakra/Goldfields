@@ -3,8 +3,7 @@ import "./Factors.css";
 import Contact from "../Contact/Contact";
 
 
-const Factors = () => {
-  const [showBrochure, setShowBrochure] = useState(false);
+const Factors = ({setShowContact,showContact}) => {
   return (
     <>
       <div className="factorsContainer">
@@ -34,10 +33,8 @@ const Factors = () => {
         <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FcontactButtonImg.svg?alt=media&token=d0029c2a-b49f-4257-8bb4-87a529e63f52"} alt="" />
         <div className="factorsContantButton">
           <p>Everything to cater all your requirements.</p>
-          <button onClick={() => setShowBrochure(!showBrochure)}  >Contact</button>
+          <button onClick={() => setShowContact(!showContact)}  >Contact</button>
         </div>
-        
-        {showBrochure && <Contact setShowBrochure={setShowBrochure} />}
       </div>
       
     </>
