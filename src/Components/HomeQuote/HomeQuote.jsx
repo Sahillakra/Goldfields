@@ -22,7 +22,8 @@ const HomeQuote = () => {
         </div>
         <div className="homeQuote-bottomSection">
           <div className="homeQuote-bottomSectionImg">
-            <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhomeQuoteBottom.svg?alt=media&token=d43436e5-6a53-481d-913a-af4ab157f0bb"} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1tJukiLtb2EkxEPSU_-DcTAo__kQbbg33'/>
+         
           </div>
           <div className="homeQuote-bottomSectionContent">
             <p>

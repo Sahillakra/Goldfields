@@ -29,24 +29,23 @@ export default function App({setShowBookNow,showBookNow}) {
           className="mySwiperHouseGallery"
         >
           <SwiperSlide className="houseOne">
-            <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhouseOne.svg?alt=media&token=b7965433-164e-425f-a570-7d33f978e12f'} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1dpT0EmbJ3B_MNJMe0RWzLa7PiEx3nFGI'/>
             <div className="HouseGalleryBookNow-btn">
-            <img onClick={() => setShowBookNow(!showBookNow)}   src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FBooknowBtn.svg?alt=media&token=39e0494f-3b75-41b8-9b1e-227db6079cb9'} alt=""   />
+            <img  onClick={() => setShowBookNow(!showBookNow)}   src='https://drive.google.com/uc?export=view&amp;id=1mpH3n1m3W58_T5UIIOQsa8Nfi_BhVgh2'/>
             </div>
             
           </SwiperSlide>
-       
           <SwiperSlide className="houseTwo">
-            <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhouseTwo.svg?alt=media&token=7237bb99-4192-4e74-9af6-5a37df1d7f3b'} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1Q715X4ni_6FKNRUKTakQ2wASgfRmc4v_'/>
           </SwiperSlide>
           <SwiperSlide className="houseThird">
-            <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhouseThird.svg?alt=media&token=3c5bbcb7-f067-4985-a026-ad8fa4cea133'} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1xYwOu-9gSJ4-obqG4E7YK3PYKdWROPiI'/>
           </SwiperSlide>
           <SwiperSlide className="houseFour">
-            <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhouseFour.svg?alt=media&token=ee5f8ba5-3492-4012-b618-1f2fe1a10b3b'} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1p3b1BgTGZVhZ2dgLk8wd62SUrT5h4FEN'/>
           </SwiperSlide>
           <SwiperSlide className="houseFive">
-            <img src={'https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhouseFive.svg?alt=media&token=c81d98b0-8562-44d8-8e3e-63e7dc309af1'} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=12l5DkjfWQ3a5E_GsHLsegEONVCP6rd4j'/>
           </SwiperSlide>
         </Swiper>
       </div>

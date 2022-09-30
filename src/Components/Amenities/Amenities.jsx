@@ -24,7 +24,7 @@ const Amenities = () => {
 
         <div className="Amenities-ImageAndDetials">
             <div className="Amenities-Image" >
-            <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesImage.svg?alt=media&token=a22bbae9-3c48-4d71-aa8e-89044cf384f2"} alt="" />
+            <img src='https://drive.google.com/uc?export=view&amp;id=1u5sC_albzHtCqAT8OceFKjULfRYYZTdE'/>
             </div>
          
           <div className="Amenities-Detials">

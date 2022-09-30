@@ -384,7 +384,7 @@
     font-size: 10px;
     text-align: center;
     width: 85%;
-    margin: auto;
+    /* margin: auto; */
     line-height: 13px;
     letter-spacing: 1px;
   }

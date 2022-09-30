@@ -30,7 +30,7 @@ const Factors = ({setShowContact,showContact}) => {
         <div className="factors-bottomSection"></div>
       </div>
       <div className="factorsContact-container">
-        <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FcontactButtonImg.svg?alt=media&token=d0029c2a-b49f-4257-8bb4-87a529e63f52"} alt="" />
+         <img src='https://drive.google.com/uc?export=view&amp;id=1NLEvE5paJpDymLImk5tifmcLrQDFb2xr'/>
         <div className="factorsContantButton">
           <p>Everything to cater all your requirements.</p>
           <button onClick={() => setShowContact(!showContact)}  >Contact</button>

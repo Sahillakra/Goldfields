@@ -7,7 +7,7 @@ const Footer = ({setShowBookNow,showBookNow,setShowBrochure,showBrochure,setShow
       <div className="footerContainer">
         <div className="footerUpper">
           <div className="footer-left">
-            <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FGoldfieldsLogo.svg?alt=media&token=eec1cf03-d5c0-4a67-8312-9ded5a1b33f5"} alt="" />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1u68IB5kz29n-AvrH43S35EBKUepG9xvp'/>
           </div>
 
           <div className="footer-center">

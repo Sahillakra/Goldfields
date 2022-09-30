@@ -22,37 +22,37 @@ export default function App() {
         className="swiperAmenities"
       >
         <SwiperSlide className="firstImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesGolf.svg?alt=media&token=e95012f9-02df-408f-8676-d01dd86e7469"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=18SePzOHK3sSXs9vxmyjbqF80VF9N0_Hh'/>
             <p>Golf</p>
         </SwiperSlide>
 
         <SwiperSlide className="secondImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesGym.svg?alt=media&token=5831825f-3a89-4f21-85c2-19c1539634fa"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1lpEEBk37ypSinT_AIw1p3j_-mVB0hJ7o'/>
             <p>Fully equipped gym</p>
         </SwiperSlide>
 
         <SwiperSlide className="thirdImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesCycling.svg?alt=media&token=04454af0-077a-4748-9b09-833127d2a4d2"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1h5aD6Zdw9HFfpteQHvA4bGlNRcARFV38'/>
             <p>Cycling</p>
         </SwiperSlide>
 
         <SwiperSlide className="fourthImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesPool.svg?alt=media&token=912e839b-8b15-47ac-9c61-7003cab5da3b"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1-XnKs5N4mvL6DvMbfIec9WD7dUe3dhMU'/>
             <p>Terrace pool</p>
         </SwiperSlide>
 
         <SwiperSlide className="fifthImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesPlayArea.svg?alt=media&token=6914c1db-da0a-4eb0-a5b0-96f25b21f432"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1wqwAjdv4Tcwa69qqiCSSCkvv1j2zVip0'/>
             <p>Walking paths & kids play areas.</p>
         </SwiperSlide>
 
         <SwiperSlide className="sixthImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesLawns.svg?alt=media&token=9eca60b4-0994-4479-ab95-2be3ec7f315f"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1O1-zR4l6oPNelqafDy4dXRmctrFAqLmM'/>
             <p>Banquet & Banquet lawns</p>
         </SwiperSlide>
 
         <SwiperSlide className="seventhImgBlock swiper-slideAmenities ">
-          <img src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FAmenitiesIndoor.svg?alt=media&token=2b3eb6cf-e597-4020-bb65-5029c71553d3"} alt="" />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1pwwG-Hq3SRa6dkgZfOfL5l64cLSEJ3m-'/>
             <p>Indoor games</p>
         </SwiperSlide>
 

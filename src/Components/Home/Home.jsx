@@ -20,24 +20,13 @@ const Home = () => {
     <>
       <div className="home-superContainer">
         <a href="https://wa.me/+919087856027" className="chat-icon" target="_blank" rel="noopener noreferrer" >
-          <img
-            src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2Ftest.webp?alt=media&token=b86b8647-5e02-488b-869b-3b6613747ff2"}
-            alt=""
-          />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1en-F2uX24cDlpfhw7puqX-FuG_iWbLXQ'/>
         </a>
         <a href="tel:+919087856027" className="call-icon"  >
-          <img
-            src={
-              "https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2F9-99404_contact-icons-png.png?alt=media&token=ab5ee9da-b40a-479b-86ff-f93d6217113f"
-            }
-            alt=""
-          />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1VxcvlsqKM78Y3aygc9fHoNmWERyUcK0d'/>
         </a>
         <div className="book-icon" onClick={() => setShowBookNow(!showBookNow)}>
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FBooknowBtn.svg?alt=media&token=39e0494f-3b75-41b8-9b1e-227db6079cb9"
-            alt=""
-          />
+        <img src='https://drive.google.com/uc?export=view&amp;id=1mpH3n1m3W58_T5UIIOQsa8Nfi_BhVgh2'/>
         </div>
 
         {showBookNow && (
@@ -59,12 +48,7 @@ const Home = () => {
         <div className="home-container">
           <div className="homeUpper-section">
             <div className="homeLogo">
-              <img
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FGoldfieldsLogo.svg?alt=media&token=eec1cf03-d5c0-4a67-8312-9ded5a1b33f5"
-                }
-                alt=""
-              />
+            <img src='https://drive.google.com/uc?export=view&amp;id=1u68IB5kz29n-AvrH43S35EBKUepG9xvp'/>
               <p className="home-mainHead">GOLDFIELDS NAVA INDIA</p>
             </div>
 
@@ -72,12 +56,7 @@ const Home = () => {
           </div>
 
           <div className="home-lowerSection">
-            <img
-              src={
-                "https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FhomeImage.svg?alt=media&token=83c3f937-3af6-4537-a890-8f84843f74e4"
-              }
-              alt=""
-            />
+          <img src='https://drive.google.com/uc?export=view&amp;id=1Wcpc54Na5hXiJ2yh-9zwFomQvpNGuAV7'/>
           </div>
         </div>
       </div>
