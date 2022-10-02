@@ -7,7 +7,7 @@ const Video = () => {
         <div className="videoContent">
             {/* <img src={playButton} alt="" /> */}
           <video
-            src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas.appspot.com/o/ProjectImages%2FVideo.mp4?alt=media&token=af409e05-1597-49ee-813a-6fa1fc0303e6"}
+            src={"https://firebasestorage.googleapis.com/v0/b/goldfieldsvillas-b2814.appspot.com/o/Goldfields%20Walkthrough-Whatsapp.m4v?alt=media&token=7d070e55-e114-47c9-b04e-14fced4f80f7"}
             autoPlay
             loop
             muted

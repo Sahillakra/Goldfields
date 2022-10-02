@@ -2,32 +2,30 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { CgClose } from "react-icons/cg";
 import axios from "axios";
-import validator from "email-validator"; 
-import swal from "sweetalert"; 
+import validator from "email-validator";
+import swal from "sweetalert";
+import emailjs from "@emailjs/browser";
 
 const Contact = ({ setShowContact }) => {
-
+  const publicKey = "Ywi3ua-Xzl6qbPMLn";
+  const serviceId = "service_q0e0peh";
+  const templateId = "template_xqtvcu1";
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
     mobileNo: "",
     desc: "",
+    msg: "Contact Us requested by",
   });
 
   async function sendMail() {
-    if (!
-      formDetails.name
-       || !formDetails.mobileNo || !formDetails.desc) {
-            return alert("all fields are required");
-          } else if (!validator.validate(
-      formDetails.email
-      )) {
-            return alert("Enter a valid email");
-          } else if (
-            formDetails.mobileNo.length != 10
-          ) {
-            return alert("Enter a valid mobile no");
-          } 
+    if (!formDetails.name || !formDetails.mobileNo || !formDetails.desc) {
+      return alert("all fields are required");
+    } else if (!validator.validate(formDetails.email)) {
+      return alert("Enter a valid email");
+    } else if (formDetails.mobileNo.length != 10) {
+      return alert("Enter a valid mobile no");
+    }
     let obj = {
       name: formDetails.name,
       email: formDetails.email,
@@ -35,33 +33,36 @@ const Contact = ({ setShowContact }) => {
       desc: formDetails.desc,
     };
 
-
-
-    await axios.post("/user/contact", obj);
+    // await axios.post("/user/contact", obj);
+    emailjs.send(serviceId, templateId, formDetails, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     setFormDetails({
       ...formDetails,
       desc: "",
       name: "",
       email: "",
       mobileNo: "",
+      msg: " ",
     });
 
-          
     swal("Success!", "Query submitted successfully", "success", {
       button: "close",
     });
-    setShowContact(false); 
-    
-  
-   
+    setShowContact(false);
   }
   return (
     <>
       <div className="contact-mainContainer">
-        <div className="ContactcloseButton"
+        <div
+          className="ContactcloseButton"
           onClick={() => setShowContact(false)}
         >
-          
           <CgClose />
         </div>
 
@@ -76,7 +77,7 @@ const Contact = ({ setShowContact }) => {
                 <label htmlFor="">Name</label>
                 <input
                   type="text"
-                  name=""
+                  name="user_name"
                   id=""
                   required
                   value={formDetails.name}
@@ -93,7 +94,7 @@ const Contact = ({ setShowContact }) => {
                 <label htmlFor="">Your email address</label>
                 <input
                   type="text"
-                  name=""
+                  name="user_email"
                   id=""
                   required
                   value={formDetails.email}
@@ -110,7 +111,7 @@ const Contact = ({ setShowContact }) => {
                 <label htmlFor="">Enter you mobile number</label>
                 <input
                   type="number"
-                  name=""
+                  name="user_mobile"
                   id=""
                   minLength="10"
                   maxLength="10"
@@ -128,7 +129,7 @@ const Contact = ({ setShowContact }) => {
               <div className="contactformDeatils-description">
                 <label htmlFor="">Description</label>
                 <textarea
-                  name=""
+                  name="user_desc"
                   id=""
                   cols="30"
                   rows="10"

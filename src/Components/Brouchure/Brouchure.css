@@ -86,8 +86,22 @@
 
 .brouchure-submitButton {
   padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 .brouchure-submitButton button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+.brouchure-submitButton a {
   background-color: #000000; /* Green */
   border: none;
   color: white;
@@ -110,7 +124,7 @@
   width: 50%;
 }
 
-@media only screen and (max-width:1370px) {
+@media only screen and (max-width: 1370px) {
   .brouchure-mainContainer {
     position: absolute;
     top: 2%;
@@ -118,10 +132,7 @@
   }
 }
 
-
-
-
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
   .brouchure-mainContainer {
     position: absolute;
     top: 14%;
@@ -153,7 +164,6 @@
   .brouchureformDeatils-email label,
   .brouchureformDeatils-download label {
     font-size: 16px;
-    
   }
 
   .brouchureformDeatils-numberLeft {
@@ -222,6 +232,19 @@
     font-size: 13px;
     letter-spacing: 1px;
     cursor: pointer;
+    margin-right: 1rem;
+  }
+  .brouchure-submitButton a {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
   }
 
   .brouchureformDeatils-bottom {
@@ -236,8 +259,7 @@
   }
 }
 
-
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .brouchure-mainContainer {
     position: absolute;
     top: 14%;
@@ -337,6 +359,19 @@
     font-size: 10px;
     letter-spacing: 1px;
     cursor: pointer;
+    margin-right: 1rem;
+  }
+  .brouchure-submitButton a {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
   }
 
   .brouchureformDeatils-bottom {
@@ -352,9 +387,6 @@
     /* text-align: center; */
   }
 }
-
-
-
 
 @media only screen and (max-width: 430px) {
   .brouchure-mainContainer {

@@ -48,7 +48,7 @@ const Home = () => {
         <div className="home-container">
           <div className="homeUpper-section">
             <div className="homeLogo">
-            <img src='https://drive.google.com/uc?export=view&amp;id=1u68IB5kz29n-AvrH43S35EBKUepG9xvp'/>
+            <img src='https://drive.google.com/uc?export=view&amp;id=1_JDQrRp7UCi-239uhg-qgx5kHlJPZpKt'/>
               <p className="home-mainHead">GOLDFIELDS NAVA INDIA</p>
             </div>
 

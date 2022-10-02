@@ -22,37 +22,37 @@ export default function App() {
         className="swiperAmenities"
       >
         <SwiperSlide className="firstImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=18SePzOHK3sSXs9vxmyjbqF80VF9N0_Hh'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=1DczeKsgUF6XOFA7yoQHsxh9QTMan5-R5'/>
             <p>Golf</p>
         </SwiperSlide>
 
         <SwiperSlide className="secondImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=1lpEEBk37ypSinT_AIw1p3j_-mVB0hJ7o'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=13uejdWcgOeQXf_jSeTRKVSLNXeAkidqP'/>
             <p>Fully equipped gym</p>
         </SwiperSlide>
 
         <SwiperSlide className="thirdImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=1h5aD6Zdw9HFfpteQHvA4bGlNRcARFV38'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=1aGYHv5a6FpTeP3kH4qio7ZRz3SjthP1G'/>
             <p>Cycling</p>
         </SwiperSlide>
 
         <SwiperSlide className="fourthImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=1-XnKs5N4mvL6DvMbfIec9WD7dUe3dhMU'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=1d8A48VB44E6n0_h7fX6Ibh-yLhF8J_wF'/>
             <p>Terrace pool</p>
         </SwiperSlide>
 
         <SwiperSlide className="fifthImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=1wqwAjdv4Tcwa69qqiCSSCkvv1j2zVip0'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=12C1G18kp1e9OkHIKh2jDZct7pNOdLyrk'/>
             <p>Walking paths & kids play areas.</p>
         </SwiperSlide>
 
         <SwiperSlide className="sixthImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=1O1-zR4l6oPNelqafDy4dXRmctrFAqLmM'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=1dP86bhgKXWo__QJcJpTZWughZ_t6qVNA'/>
             <p>Banquet & Banquet lawns</p>
         </SwiperSlide>
 
         <SwiperSlide className="seventhImgBlock swiper-slideAmenities ">
-        <img src='https://drive.google.com/uc?export=view&amp;id=1pwwG-Hq3SRa6dkgZfOfL5l64cLSEJ3m-'/>
+        <img src='https://drive.google.com/uc?export=view&amp;id=1A-1exPlzpcclxzmanthj8J8SJBUI-dOz'/>
             <p>Indoor games</p>
         </SwiperSlide>
 

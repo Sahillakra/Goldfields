@@ -23,7 +23,7 @@
 
 .homeLogo img {
   width: 45%;
-  padding: 4.5rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .home-mainHead {
@@ -47,7 +47,7 @@
   padding: 0;
   /* border: 2px solid green; */
 }
-.chat-icon {
+/* .chat-icon {
   position: fixed;
   right: -45.8%;
   top: 48%;
@@ -87,7 +87,50 @@
   z-index: 1000 !important;
   width: 3.8%;
   cursor: pointer;
+} */
+
+.chat-icon {
+  position: fixed;
+  right: -45.3%;
+  top: 46%;
+  z-index: 1000 !important;
+  width: 50%;
 }
+.chat-icon img {
+  width: 8%;
+  right: 0;
+  z-index: 1000 !important;
+}
+
+.call-icon {
+  position: fixed;
+  right: -45.4%;
+  top: 30%;
+  z-index: 1000 !important;
+  width: 50%;
+}
+.call-icon img {
+  width: 7%;
+  z-index: 1000 !important;
+}
+
+.book-icon {
+  position: fixed;
+  right: -5%;
+  top: 42%;
+  z-index: 1000 !important;
+  width: 20%;
+  cursor: pointer;
+}
+.book-icon img {
+  position: fixed;
+  right: 0.7%;
+  top: 62%;
+  z-index: 1000 !important;
+  width: 3.8%;
+  cursor: pointer;
+}
+
 
 .book-main {
   position: fixed;
@@ -137,7 +180,7 @@
 
   .homeLogo img {
     width: 50%;
-    padding: 2.5rem 0 0 0;
+    padding: 1rem 0 0 0;
   }
 
   .home-mainHead {
@@ -160,7 +203,7 @@
 
   .homeLogo img {
     width: 45%;
-    padding: 4.5rem 0 0 0;
+    padding: 1rem 0 0 0;
   }
 
   .home-mainHead {
@@ -201,10 +244,10 @@
   }
 
 
-  .chat-icon {
+  /* .chat-icon {
     position: fixed;
-    right: -45%;
-    top: 47%;
+    right: -44.9%;
+    top: 45%;
     z-index: 1000 !important;
     width: 50%;
   }
@@ -216,8 +259,8 @@
   
   .call-icon {
     position: fixed;
-    right: -45.2%;
-    top: 37%;
+    right: -45%;
+    top: 34%;
     z-index: 1000 !important;
     width: 50%;
   }
@@ -229,18 +272,19 @@
   .book-icon {
     position: fixed;
     right: -5%;
-    top: 42%;
+    top: 45%;
     z-index: 1000 !important;
     width: 20%;
     cursor: pointer;
   }
   
   .book-icon img {
-    right: 1%;
-    width: 3.8%;
+    right: 1.4%;
+    top: 57%;
+    width: 3.5%;
     
 
-  }
+  } */
 }
 
 
@@ -249,7 +293,7 @@
   
   .homeLogo img {
     width: 45%;
-    padding: 4.5rem 0 0 0;
+    padding: 1rem 0 0 0;
   }
   
   .home-mainHead {
@@ -268,7 +312,7 @@
   
   .homeLogo img {
     width: 45%;
-    padding: 4.5rem 0 0 0;
+    padding:1rem 0 0 0;
   }
   
   .home-mainHead {
@@ -362,7 +406,7 @@
 @media only screen and (max-width: 430px) {
   .homeLogo img {
     width: 50%;
-    padding: 2.5rem 0 0 0;
+    padding:1rem 0 0 0;
   }
 
   .home-mainHead {
@@ -456,7 +500,7 @@
 @media only screen and (max-width: 375px) {
   .homeLogo img {
     width: 50%;
-    padding: 2.5rem 0 0 0;
+    padding:1rem 0 0 0;
   }
 
   .home-mainHead {
@@ -479,7 +523,7 @@
 @media only screen and (max-width: 320px) {
   .homeLogo img {
     width: 50%;
-    padding: 2.5rem 0 0 0;
+    padding:1rem 0 0 0;
   }
 
   .home-mainHead {

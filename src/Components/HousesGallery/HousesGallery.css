@@ -1,3 +1,6 @@
+:root {
+  --swiper-theme-color: rgb(0, 0, 0);
+}
 .houseGalleryContainer{
   position: relative;
     margin-top: 5rem;

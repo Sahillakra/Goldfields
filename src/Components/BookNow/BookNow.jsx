@@ -2,33 +2,34 @@ import React, { useState } from "react";
 import "./BookNow.css";
 import { CgClose } from "react-icons/cg";
 import axios from "axios";
-import validator from "email-validator"; 
-import swal from "sweetalert"; 
+import validator from "email-validator";
+import swal from "sweetalert";
+import emailjs from "@emailjs/browser";
 
 const BookNow = ({ setShowBookNow }) => {
+  const publicKey = "Ywi3ua-Xzl6qbPMLn";
+  const serviceId = "service_q0e0peh";
+  const templateId = "template_xqtvcu1";
   // const [showBrochure, setShowBookNow] = useState(false);
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
     mobileNo: "",
     desc: "",
+    msg: "Book Now requested by",
   });
 
   async function sendMail() {
-    if (!
-      formDetails.name
-       || !formDetails.mobileNo || !formDetails.desc) {
-            return alert("all fields are required");
-          } else if (!validator.validate(
-      formDetails.email
-      )) {
-            return alert("Enter a valid email");
-          } else if (
-            formDetails.mobileNo.length < 10 &&
-            formDetails.mobileNo.length > 10
-          ) {
-            return alert("Enter a valid mobile no");
-          } 
+    if (!formDetails.name || !formDetails.mobileNo || !formDetails.desc) {
+      return alert("all fields are required");
+    } else if (!validator.validate(formDetails.email)) {
+      return alert("Enter a valid email");
+    } else if (
+      formDetails.mobileNo.length < 10 &&
+      formDetails.mobileNo.length > 10
+    ) {
+      return alert("Enter a valid mobile no");
+    }
     let obj = {
       name: formDetails.name,
       email: formDetails.email,
@@ -36,7 +37,15 @@ const BookNow = ({ setShowBookNow }) => {
       desc: formDetails.desc,
     };
 
-    await axios.post("/user/book", obj);
+    // await axios.post("/user/book", obj);
+    emailjs.send(serviceId, templateId, formDetails, publicKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     setFormDetails({
       ...formDetails,
       desc: "",
@@ -48,14 +57,15 @@ const BookNow = ({ setShowBookNow }) => {
     swal("Success!", "Query submitted successfully", "success", {
       button: "close",
     });
-    setShowBookNow(false); 
+    setShowBookNow(false);
   }
 
   return (
     <>
       <div className="bookNow-mainContainer">
-        <div className="bookNowcloseButton"
-        onClick={() => setShowBookNow(false)}
+        <div
+          className="bookNowcloseButton"
+          onClick={() => setShowBookNow(false)}
         >
           <CgClose />
         </div>

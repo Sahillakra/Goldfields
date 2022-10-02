@@ -22,7 +22,7 @@ const HomeQuote = () => {
         </div>
         <div className="homeQuote-bottomSection">
           <div className="homeQuote-bottomSectionImg">
-          <img src='https://drive.google.com/uc?export=view&amp;id=1tJukiLtb2EkxEPSU_-DcTAo__kQbbg33'/>
+          <img src='https://drive.google.com/uc?export=view&amp;id=1985dJQsaExHb_6RfXoIhO7LTxIu6MSKP'/>
          
           </div>
           <div className="homeQuote-bottomSectionContent">

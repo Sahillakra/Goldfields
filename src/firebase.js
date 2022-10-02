@@ -5,13 +5,15 @@ import firebase from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAMa5FJvhgmff2J5lnKCKhB51x2eNV5hEw",
-  authDomain: "goldfieldsvillas.firebaseapp.com",
-  projectId: "goldfieldsvillas",
-  storageBucket: "goldfieldsvillas.appspot.com",
-  messagingSenderId: "951709672924",
-  appId: "1:951709672924:web:6d10836a3e36f7a2f4db19",
+  apiKey: "AIzaSyB_PhO72x-Zi63OO2LO7gRjsz4AMiVeCfg",
+  authDomain: "goldfieldsvillas-b2814.firebaseapp.com",
+  databaseURL: "https://goldfieldsvillas-b2814-default-rtdb.firebaseio.com",
+  projectId: "goldfieldsvillas-b2814",
+  storageBucket: "goldfieldsvillas-b2814.appspot.com",
+  messagingSenderId: "487020874394",
+  appId: "1:487020874394:web:3228b12e29c57c72b72d23",
 };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export default app;
